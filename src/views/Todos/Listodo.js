@@ -61,6 +61,12 @@ class ListTodo extends React.Component{
         
         return(
             <>
+                <>
+                <p>
+                    Todo App with JS Minh dz vcl
+                </p>
+                </>
+
                 <Addtodo
                 addNewTodo = {this.addNewTodo}
                 />
