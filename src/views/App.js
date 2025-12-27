@@ -14,6 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Userdetail from './Users/Userdetail';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/todo" element={<ListTodo />} />
             <Route path="/about" element={<MyComponent />} />
             <Route path="/user" element={<ListUsers />} />
+            <Route path="/users/:id" element={<Userdetail />} />
           </Routes>
 
         </header>
